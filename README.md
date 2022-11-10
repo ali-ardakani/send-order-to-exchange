@@ -9,7 +9,7 @@ This project is a simulator of sending an order to the exchange.
 ## How to use
 ### Send an order
 1. Login to the simulator
-2. Send an order to /order/ endpoint (e.g. {"symbol":"ABAN", "quantity":5})
+2. Send an order to /order/ endpoint (e.g. {"symbol":"ABAN", "quantity":5}(It is not case sensitive))
 
 Note: The order will be sent to the exchange when the total value of orders for the symbol is greater than 10$.
 
